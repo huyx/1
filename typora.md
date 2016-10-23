@@ -80,34 +80,36 @@
 
 ### 列表
 
-```## un-ordered list*   Red*   Green*   Blue## ordered list1.  Red2. 	Green3.	Blue
+* Red
+* Green
+* Blu
+
+1. Red
+2. Green
+3. Blue
 
 ### 任务列表
 
-​```markdown
 - [ ] a task list item
 - [ ] list syntax required
 - [ ] normal **formatting**, @mentions, #1234 refs
 - [ ] incomplete
 - [x] completed
-```
 
 ### 代码块
 
-```gfm
 示例:
-​```
+```
 function test() {
   console.log("notice the blank line before this function?");
 }
-​```
+```
 
 语法高亮:
-​```ruby
+```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
-​```
 ```
 
 ### 脚注
